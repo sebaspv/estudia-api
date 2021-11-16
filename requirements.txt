@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+git+https://github.com/boudinfl/pke.git
+git+https://github.com/ramsrigouthamg/Questgen.ai

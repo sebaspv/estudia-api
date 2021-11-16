@@ -1,0 +1,8 @@
+image: poncegramming/fastapi-test:test-python
+port: 8000
+env:
+  - name: ENV
+    value: VAR
+resources:
+  replicas: 1
+  instanceType: C3
