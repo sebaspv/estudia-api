@@ -12,4 +12,4 @@ RUN tar -xvf  s2v_reddit_2015_md.tar.gz
 
 COPY . .
 
-CMD [ "python3", "app.py"]
+CMD [ "python3", "main.py"]
