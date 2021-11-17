@@ -1,3 +1,14 @@
 s2v_reddit_2015_md.tar.gz
 ./sv2_old/
-./._sv2_old
+._sv2_old
+s2v_old/._cfg
+s2v_old/._freqs.json
+s2v_old/._key2row
+s2v_old/._strings.json
+s2v_old/._vectors
+s2v_old/cfg
+s2v_old/freqs.json
+s2v_old/key2row
+s2v_old/strings.json
+s2v_old/vectors
+._s2v_old
