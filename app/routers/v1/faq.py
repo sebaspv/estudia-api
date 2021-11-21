@@ -35,8 +35,8 @@ async def faq_spanish(prompt: str) -> dict:
         answer_url = url_to_spanish + urllib.parse.quote(question["Answer"], safe="")
         new_question["Question"] = requests.get(url=question_url).json()[
             "translated"
-        ].title()
-        new_question["Answer"] = requests.get(url=answer_url).json()["translated"].title()
+        ]
+        new_question["Answer"] = requests.get(url=answer_url).json()["translated"]
         spanish_questions.append(new_question)
     translated_questions = {"questions": spanish_questions, "translated_prompt": translated_prompt}
     return translated_questions
