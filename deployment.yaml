@@ -5,4 +5,4 @@ env:
     value: VAR
 resources:
   replicas: 1
-  instanceType: C3
+  instanceType: C4

@@ -14,3 +14,5 @@ s2v_old/vectors
 ._s2v_old
 app/routers/v1/__pycache__/__init__.cpython-36.pyc
 app/routers/v1/__pycache__/faq.cpython-36.pyc
+.env
+env/
